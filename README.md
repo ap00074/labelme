@@ -218,7 +218,8 @@ pip install -e .
 ## Build Detectron2
 ```bash
 git clone https://github.com/facebookresearch/detectron2.git
-python -m pip install -e detectron2
+cd detectron2
+pip install -e .
 ```
 
 ## How to build standalone executable
