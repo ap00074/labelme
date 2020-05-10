@@ -215,6 +215,9 @@ source .anaconda3/bin/activate
 pip install -e .
 ```
 
+## Build Detectron2
+git clone https://github.com/facebookresearch/detectron2.git
+python -m pip install -e detectron2
 
 ## How to build standalone executable
 
