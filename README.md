@@ -206,7 +206,7 @@ pytest -v tests
 ## Developing
 
 ```bash
-git clone https://github.com/wkentaro/labelme.git
+git clone https://github.com/ap00074/labelme.git
 cd labelme
 
 # Install anaconda3 and labelme
