@@ -217,6 +217,11 @@ pip install -e .
 
 ## Build Detectron2
 ```bash
+#Before building Detectron2,
+#Do pre-installation works
+pip install cython pycocotools
+pip install opencv-python
+
 git clone https://github.com/facebookresearch/detectron2.git
 cd detectron2
 pip install -e .
